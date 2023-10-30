@@ -179,32 +179,12 @@ def mine_block():
     return True
 
 
-def get_transaction_value():
-    """ Returns the input of the user (a new transaction amount) as a float. """
-    # Get the user input, transform it from a string to a float and store it in user_input
-    tx_recipient = input('Enter the recipient of the transaction: ')
-    tx_amount = float(input('Your transaction amount please: '))
-    return tx_recipient, tx_amount
 
 
-def get_user_choice():
-    """Prompts the user for its choice and return it."""
-    user_input = input('Your choice: ')
-    return user_input
 
 
-def print_blockchain_elements():
-    """ Output all blocks of the blockchain. """
-    # Output the blockchain list to the console
-    for block in blockchain:
-        print('Outputting Block')
-        print(block)
-    else:
-        print('-' * 20)
 
 
-waiting_for_input = True
 
-# A while loop for the user input interface
-# It's a loop that exits once waiting_for_input becomes False or when break is called
+
 
